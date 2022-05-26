@@ -1,0 +1,77 @@
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.mg_wrapper {
+  background-color: aliceblue;
+  width: 1170px;
+  margin: 0 auto;
+}
+.mg_sub-tit {
+  font: normal normal bold 16px/60px Inter;
+  letter-spacing: 0px;
+  color: #FDC800;
+  margin: 12px 0 36px;
+}
+.mg_cousre-explain .mg_tit {
+  font: normal normal bold 48px/60px Georgia;
+  letter-spacing: 0px;
+  color: #002147;
+}
+.list-group-item {
+  font: normal normal normal 16px/18px Helvetica Neue;
+  color: #212529;
+  padding: 20px 0 17px 23px;
+}
+.list-group-item:last-child{
+  padding: 23px 0 21px;
+}
+
+.mg_person-img {
+  width: 80px;
+  margin-bottom: 50px;
+}
+.mg_contact-text{
+  color: #BDBDBD;
+  font: normal normal normal 14px Inter;
+}
+.mg_mail{
+  font: normal normal bold 14px/17px Inter;
+  color: #00B2B2;
+}
+
+.mg_second-wrapper {
+  width: 768px;
+}
+.mg_cousre-explain h3 {
+  font: normal normal bold 36px/24px Georgia;
+  letter-spacing: 0px;
+  color: #002147;
+  margin-bottom: 16px;
+}
+.mg_learning-list {
+  margin-top: 36px;
+  position: relative;
+}
+.mg_learning-list li::before{
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-image: url(./images/mg_check.svg);
+  background-size: cover;
+  position: absolute;
+  left: 0;
+}
+.mg_description p, .mg_learning-list li {
+  font: normal normal normal 16px/24px Inter;
+  letter-spacing: 0px;
+  color: #212529; 
+}
+.mg_description p:nth-child(n+2) {
+  margin-top: 24px;
+}
+.mg_learning-list li:nth-child(n+2) {
+  margin-top: 16px;
+}
