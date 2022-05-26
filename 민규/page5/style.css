@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* 레이아웃 시작 */
+.mg_wrapper {
+  background-color: aliceblue;
+  width: 1170px;
+  margin: 0 auto;
+}
+.mg_sub-tit {
+  font: normal normal bold 16px/60px Inter;
+  letter-spacing: 0px;
+  color: #FDC800;
+  margin: 12px 0 36px;
+}
+.mg_web-dev-cards .mg_tit {
+  font: normal normal bold 48px/60px Georgia;
+  letter-spacing: 0px;
+  color: #002147;
+}
+.mg_filters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown button {
+  font: normal normal medium 16px/20px Inter;
+  letter-spacing: 0px;
+  color: #002147;
+  width: 270px;
+  text-align: left;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #BDBDBD;
+  border-radius: 4px;
+}
+.dropdown h3 {
+  font: normal normal bold 20px/24px Inter;
+  letter-spacing: 0px;
+  color: #002147;
+}
+
+/* 그리드 레이아웃 */
+.row {
+  margin-bottom: 30px;
+}
+/* .card {
+  padding-bottom: 24px;
+} */
+.card-body {
+  height: 130px;
+}
+.card-body::before {
+  content: "";
+  width: 64px;
+  height: 64px;
+  background-image: url(./images/mg_icon_1.svg);
+  background-size: cover;
+  position: absolute;
+  top: 151px;
+  border: solid 8px #f0f4f9;
+}
+.mg_img-w::before{
+  background-image: url(./images/mg_icon_2.svg);
+}
+.mg_img-cal::before{
+  background-image: url(./images/mg_icon_3.svg);
+}
+.row h4 {
+  font: normal normal bold 20px/24px Inter;
+  letter-spacing: 0px;
+  color: #002147;
+  margin-top: 20px;
+}
+.row cite {
+  font: normal normal normal 14px/24px Inter;
+  letter-spacing: 0px;
+  color: #757575;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 24px;
+}
