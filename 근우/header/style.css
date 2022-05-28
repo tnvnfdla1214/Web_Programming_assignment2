@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.kw_header {
+  width: 100vw;
+  height: 100px;
+}
+
+.kw_header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.kw_header_top {
+  background-color: #ffc107;
+}
+
+.kw_header_content_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.kw_header_top_content_padding {
+  padding: 14px 0 17px 0;
+}
+
+.kw_header_logo {
+  width: 272px;
+  height: 52px;
+}
+
+.kw_header_top_left {
+  display: flex;
+  gap: 28px;
+}
+
+.kw_header_nav {
+  background: #f0f4f9 0% 0% no-repeat padding-box;
+}
+
+.kw_header_top_left_text_button {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.kw_header_top_right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.kw_header_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.kw_header_bottom {
+  background: #f0f4f9 0% 0% no-repeat padding-box;
+  padding: 24px 0;
+}
+
+.kw_nav_list {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  list-style: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #002147;
+  height: fit-content;
+}
+
+.kw_header_button_group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: 60px !important;
+}
+
+.kw_primary_button {
+  background: #ffc107;
+  border-radius: 5px;
+  padding: 12px 28px;
+  color: #002147;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  height: 54px;
+  box-sizing: border-box;
+}
+
+.kw_part1_btn {
+  font: normal normal medium 16px/20px;
+  letter-spacing: 0px;
+  color: #212121;
+  opacity: 1;
+}
+
+.kw_secondary_button {
+  padding: 10px 10px;
+  border: 1px solid #bdbdbd;
+  background: #ffffff;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.kw_part2_btn {
+  height: 54px;
+  color: #212121;
+  opacity: 1;
+}
