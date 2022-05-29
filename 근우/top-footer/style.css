@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("http://fonts.cdnfonts.com/css/georgia");
+
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.kw_top_footer_total_wrapper {
+  width: 100vw;
+  height: 630px;
+  display: flex;
+  align-items: center;
+}
+
+.kw_top_footer_wrapper {
+  background-color: white;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.kw_top_footer_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.kw_top_footer_submit_form {
+  display: flex;
+  align-items: center;
+  width: 570px;
+  height: 56px;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  opacity: 1;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.kw_top_footer_mail_input {
+  width: 364px;
+  border: none;
+  outline: none;
+}
+
+.kw_top_footer_subscribe_span {
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #fdc800;
+  opacity: 1;
+  font-weight: 700;
+}
+
+.kw_top_footer_paragraph {
+  font-size: 48px;
+  text-align: left;
+  font-family: "Georgia", sans-serif;
+  letter-spacing: 0px;
+  color: #002147;
+  opacity: 1;
+  font-weight: 700;
+}
+
+.kw_top_footer_submit_btn {
+  outline: none;
+  border: none;
+  background-color: #fdc800;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #002147;
+  opacity: 1;
+  width: 164px;
+  height: 44px;
+  border-radius: 4px;
+  transform: translateX(4px);
+}
