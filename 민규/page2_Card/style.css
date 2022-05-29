@@ -1,0 +1,121 @@
+.ir {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+h2, h3, p, span, div, article, li, ul, dd, h5 {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+.card-body {
+  padding: 0;
+}
+body {
+  background: #F0F4F9 0% 0% no-repeat padding-box;
+}
+/* 레이아웃 시작 */
+
+.mg_wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.mg_price {
+  padding-top: 80px;
+  position: relative;
+}
+.mg_sub-tit {
+  font: normal normal bold 16px/60px Inter;
+  color: #FDC800;
+}
+
+.mg_price h2 {
+  margin-bottom: 48px;
+  font: normal normal bold 48px/60px Georgia;
+  color: #002147;
+}
+
+.mg_toggle {
+  background-color: #FFFFFF;
+  padding: 4px;
+  border-radius: 6px;
+  position: absolute;
+  right: 0;
+  top: 130px;
+}
+.mg_toggle button {
+  border: none;
+  width: 115px;
+  height: 44px;
+  background-color: #fff;
+  border-radius: 6px;
+}
+.mg_toggle .mg_selected-toggle{
+  background: #0DCAF0 0% 0% no-repeat padding-box;
+}
+.mg_price .card {
+  width: 370px;
+  height: 523px;
+  box-sizing: border-box;
+  float: left;
+  padding: 0 36px 48px;
+}
+.mg_price .card + .card:nth-of-type(n) {
+  margin-left: 30px;
+}
+.mg_price .card .card-header {
+  width: 144px;
+  box-sizing: border-box;
+  border: 0;
+  margin: 0 auto;
+  background-color: #212529;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 0;
+  font: normal normal bold 16px Inter;
+}
+.mg_price .card-title {
+  font: normal normal bold 60px/60px Georgia;
+  color: #002147;
+}
+.mg_tit-sm {
+  font: normal normal bold 36px/60px Georgia;
+}
+.mg_price .card-text {
+  font: normal normal normal 16px/60px Inter;
+  color: #BDBDBD;
+  border-bottom: 1px solid #BDBDBD;
+}
+.mg_price .card ul {
+  margin: 26px 0
+}
+.mg_price .card li {
+  font: normal normal normal 16px/60px Inter;
+  color: #002147;
+  line-height: 16px;
+}
+.mg_price .card li::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  float: left;
+  background-image: url(./images/mg_check_on.svg);
+  margin-right: 10px;
+}
+.mg_price .card .mg_check-off::before {
+  background-image: url(./images/mg_check_off.svg);
+}
+.mg_price .card li+li:nth-child(n){
+  margin-top: 16px;
+}
+.mg_price .card a {
+  font: normal normal medium 16px/20px Inter;
+  color: #F0F4F9;
+  padding: 16px 0 18px;
+}

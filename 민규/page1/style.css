@@ -1,0 +1,219 @@
+.ir {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+h2, h3, p, span, div, article, li, ul, dd, h5 {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+/* 레이아웃 시작 */
+.mg_KimmieVo-courses {
+  position: relative;
+}
+.mg_wrapper {
+  width: 1140px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.mg_KimmieVo-coursesr::after {
+  clear: both;
+}
+.mg_kimmie-vo-pic{
+  width: 541px;
+  height: 404px;
+  margin-right: 30px;
+  border-radius: 6px;
+  z-index: -1;
+}
+.mg_kimmie-vo-pic::after {
+  content: "";
+  width: 120px;
+  height: 120px;
+  background-image: url(images/mg_Instagram\ post.svg);
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  z-index: 100;
+}
+.mg_name-box {
+  width: 400px;
+  box-sizing: border-box;
+  position: absolute;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  left: 70px;
+  bottom: -130px;
+  border-radius: 6px;
+  box-shadow: 0px 4px 43px #00000008;
+  padding: 16px 0;
+  text-align: center;
+}
+.mg_kimmie-vo-pic:nth-child(n) {
+  float: left;
+}
+.mg_KimmieVo-courses h2{
+  font: normal normal bold 48px/60px Georgia;
+  margin-bottom: 10px;
+}
+.mg_KimmieVo-courses h2 span{
+  color: #fdc800;
+}
+.mg_context {
+  font: normal normal normal 16px/24px Inter;
+  color: #212529;
+  margin-bottom: 20px;
+}
+.mg_KimmieVo-courses h3 {
+  letter-spacing: 0px;
+  color: #002147;
+  margin-bottom: 14px;
+}
+.mg_explain-box {
+  float: right;
+  background-color: #F0F4F9;
+  width: 510px;
+  padding: 24px 0 26px 30px;
+  position: relative;
+  box-sizing: border-box;
+}
+.mg_explain-box span:nth-child(1) {
+  color: #002147;
+  font: normal normal bold 16px/24px Inter;
+  margin-bottom: 10px;
+}
+.mg_explain-box span:nth-child(3) {
+  font: normal normal normal 14px/24px Inter;
+  color: #757575;
+}
+
+.mg_explain-box::before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-image: url(./images/mg_person2.svg);
+  position: absolute;
+  top: 8px;
+  left: -60px;
+  border-radius: 6px;
+}
+
+
+footer {
+  background: #0D6EFD 0% 0% no-repeat padding-box;
+  color: #FFFFFF;
+  padding-top: 80px;
+  overflow: hidden;
+}
+.mg_info, .mg_footer-nav {
+  width: 570px;
+  float: left;
+  box-sizing: border-box;
+}
+.mg_info h2 {
+  font: normal normal 800 23px/28px Inter;
+  margin-bottom: 30px;
+}
+.mg_info h2::before {
+  content: "";
+  width: 70px;
+  height: 50px;
+  background-image: url(./images/mg_Logo.svg);
+  background-size: 70px 50px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.mg_contact {
+  width: 240px;
+  position: relative;
+}
+.mg_contact dd:nth-of-type(n):before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-image: url(./images/mg_icon_location.svg);
+  background-size: 24px;
+  position: absolute;
+  left: 0;
+}
+.mg_contact dd:nth-of-type(2):before {
+  background-image: url(./images/mg_icon_email.svg);
+}
+.mg_contact dd:nth-of-type(3):before {
+  background-image: url(./images/mg_icon_phone.svg);
+}
+.mg_footer-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.mg_footer-nav div {
+  width: 170px;
+}
+.mg_info:nth-child(n) {
+  flex-grow: 1;
+  flex-basis: 1;
+}
+
+.mg_contact dd {
+  font: normal normal normal 16px/36px Inter;
+  line-height: 20px;
+  padding-left: 30px;
+}
+.mg_contact dd:nth-of-type(n+2) {
+  margin-top: 28px;
+}
+.mg_footer-links li:nth-child(n) {
+  margin-top: 10px;
+}
+
+
+
+
+
+.mg_footer-footer {
+  padding: 36px 0 36px 36px;
+  float: left;
+  width: 100%;
+  background: #FDC800;
+  margin-top: 44px;
+  /* display: block; */
+}
+.mg_footer-nav h5 {
+  font: normal normal bold 20px/36px Inter;
+}
+.mg_footer-footer cite{
+  font: normal normal normal 16px/60px Inter;
+  color: #002147;
+}
+.mg_footer-footer ul {
+  float: right;
+  margin-right: 80px;
+}
+
+.mg_footer-nav ul li a {
+  font: normal normal normal 16px/36px Inter;
+  font-weight: 300;
+}
+.mg_footer-footer ul li:nth-child(n) {
+  width: 24px;
+  height: 24px;
+  margin-top: 15px;
+  display: inline-block;
+  background-image: url(./images/mg_iconGroup_social.svg);
+  background-position: 0 0;
+}
+.mg_footer-footer ul li:nth-child(2) {
+  background-position: -35px 0;
+}
+.mg_footer-footer ul li:nth-child(3) {
+  background-position: -70px 0;
+}
+.mg_footer-footer ul li:nth-child(4) {
+  background-position: -105px 0;
+}
